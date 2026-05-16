@@ -1,0 +1,6 @@
+pandas
+matplotlib
+seaborn
+google-play-scraper
+underthesea
+scikit-learn

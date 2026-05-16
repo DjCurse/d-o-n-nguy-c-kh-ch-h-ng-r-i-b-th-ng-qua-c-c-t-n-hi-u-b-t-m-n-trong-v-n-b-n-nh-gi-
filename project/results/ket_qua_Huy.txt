@@ -1,0 +1,26 @@
+Đang tiến hành làm sạch văn bản...
+Đã làm sạch xong! Dữ liệu lưu tại: D:\NNLT_PYTHON\GroupPython\d-o-n-nguy-c-kh-ch-h-ng-r-i-b-th-ng-qua-c-c-t-n-hi-u-b-t-m-n-trong-v-n-b-n-nh-gi-\project\data\processed\cleaned_shopee_reviews.csv
+1. Đang nạp dữ liệu sạch...
+2. Đang phân chia dữ liệu và chuyển Chữ thành Số (TF-IDF)...
+3. Đang huấn luyện Logistic Regression (Baseline)...
+
+==================================================
+ 🎯 BÁO CÁO KẾT QUẢ MÔ HÌNH BASELINE 
+==================================================
+              precision    recall  f1-score   support
+
+ 0 (An toàn)       0.96      0.91      0.94       540
+ 1 (Nguy cơ)       0.90      0.96      0.92       424
+
+    accuracy                           0.93       964
+   macro avg       0.93      0.93      0.93       964
+weighted avg       0.93      0.93      0.93       964
+
+
+--- CÁC CHỈ SỐ BỔ SUNG ---
+ROC-AUC Score: 96.98%
+
+Ma trận nhầm lẫn (Confusion Matrix):
+            Đoán: 0  Đoán: 1
+Thực tế: 0      493       47
+Thực tế: 1       19      405
